@@ -1,0 +1,128 @@
+
+1) Python :
+	1) Core python
+	2) Advanced Python.
+
+2) Python -> is invernted by the person -> giudo van rossum.
+					-> 1991
+
+3) Python is a higgh level  language.
+
+4) Flight Example :
+	Bording :
+		1) Chacking the baggage
+		2) Immigration check
+		3) Security check
+		4) Boatrding
+		5) Take off
+	
+	Landing :
+		1) Immigration check
+		2) Security check
+		3) Collect Bagage 
+		4) Leave airport
+
+3) What is a  Program :
+	Se of Instruction.
+	Act of creating program -> Programming
+
+4) Solving a Problem :
+	1) Input.
+	 	eg : carx -> 3
+		     cary -> 4
+
+	2) Process(Algorithm)
+	3) Output
+
+5) Problem :
+	
+	Input :
+		At the starting : initial_no_of_flights -> 100
+		After some time : take_off -> 40
+		After some time : landed_planes -> 60
+
+	Process :
+		Current_number_of_flights  = initial_no_of_flights  - take_off  + landed_planes 
+					   = 100 - 40 + 60
+					   = 120
+
+	Output ;
+		display  (120)
+
+6) Algorithm may vary from person to person :
+		1) Time Efficiency
+		3) Space Efficiency
+
+
+7) Representation of Algorithm :
+	1) Pseudo-cdoe : representation of the algorithm in English
+	2) Flow Chart : diagrammatic way of representation of Solution
+
+8) Variable :
+
+	A vaibale is used to store and hold the value
+
+	= -> Assignment operator
+
+9) Operator :
+		
+	1) Arithematic Operator :
+		+	Add
+		-	sub
+		*	mul
+		/	divide
+		%	Modulus
+
+	2) Relational Operatorsv:
+		
+		==     Checking(whether two numbers are equal or not)
+		<      less than
+		>      greater than
+		<= 	less than or equalt o
+		>=	greater than equal to4
+
+	3) Logical Operators :
+		
+		1) AND
+		2) OR
+		3) NOT
+
+		T -> true
+		F -> Falses
+
+		a) 	A	B	A AND B
+
+			T	T	T
+			T	F	F
+			F	T	F	
+			F	F	F
+
+		b) 	A	B	A OR B
+			
+			T	T	T
+			T	F	T
+			F	T	T
+			F	F	F
+
+		c) 	A 	Not A
+			T	F
+			F	T
+
+
+10) Flow of COntrols :
+		1) Selection Control Structure
+		2) Repetitive COntrol Struture
+
+		A) Selection Control Structure
+
+			if runway == "free":
+				dispaly("Land the plance")
+			else :
+				diaplay("Circle in air")
+
+		B) if runway == "free":
+				dispaly("Land the plance")
+		   else if fuel == "low":
+				display("Emergency landing")
+		   else :
+				diaplay("Circle in air")
